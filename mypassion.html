@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <tittle>Drift Car</tittle>
+    <link href="style.css" rel="stylesheet" tyle="text/css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h2 class="text-center">Welcome to Drift World!</h2>
+      <p style="font-family: roboto" class="text-dark">
+        <h3 class="text-center text-warning">Drifting is FUN!</h3>
+        <img src="bmm3drift.jpg" style="width:200px; height:180px" alt="drift"><br>
+        It's always fun to see a drift car doing many trick to impress the crowd. What is the
+        real meaning of drifting? Drifting is  the act or activity of steering an automobile so that it makes a controlled skid sideways 
+        through a turn with the front wheels pointed in a direction opposite to that of the turn</p>
+      
+      <h2 class="text-center">The History</h2>
+      <p>
+        <span class="pull-right"><img src="driflegend.jpg" style="width: 200px; heigh:200px" alt="driftlegen"></span><br>
+        Drifting began in the early 1980s with a Japanese race-car driver named Keiichi Tsuchiya. Mr. Tsuchiya, who was in his 20s, started 
+        experimenting with drifting and practiced it on curvy roads deep in the mountains near his 
+        hometown. He says he was perfecting his ability to not spin out 
+        on curves in car races.
+        <button class="btn btn-success" onclick="show_hide()">More Picture</button>
+        <div id="appear" style="display: none">
+          <div class="row">
+            <div class="col-6">
+              <img src="keiichi.jpg" class="img-fluid" style="width:150px; height:150px" rel="keiichi">
+            </div>
+            <div class="col-6">
+              <img src="keiichi1.jpg" class="img-fluid"  style="width:150px; height:150px" rel="keiichi">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <img src="keiich2.jpg" class="img-fluid" style="width:150px; height:150px" rel="keiichi">
+            </div>
+            <div class="col-6">
+              <img src="keiichi-car.jpg" style="width:150px; height:150px" rel="keiichi">
+            </div>
+          </div>
+        </div>
+      <h2 class="text-center">Formula Drft</h2>
+      <p>
+        Formula D or Formula DRIFT Black Magic Pro Championship Presented by BlackVue Dash Cameras is the premier United States-based drifting series. Formula Drift, Inc. was co-founded by Jim Liaw and Ryan Sage in 2003 as a sister company to the now defunct Slipstream Global Marketing, the same partnership that introduced D1 Grand Prix to the United States. The new entity would solely own, operate and launch the first official drifting series in North America. 2018 was Formula Drift's fifteenth year of competition
+        Source : <a href="https://en.wikipedia.org/wiki/Formula_D" target="_blank">Wikipedia</a><br>
+        <button class="btn btn-danger btn-sm" onclick="show_hide1()">More from Wiki</button>
+        <button class="btn btn-primary btn-sm" onclick="gallery()">Gallery Formula Drift</button>
+        <button class="btn btn-warning btn-sm" onclick="video()">Schedule Formula Drift</button>
+        <div id="appear1" style="display: none">
+          <p>With 60 currently licensed drivers competing in PRO and PROSPEC, Formula Drift is recognized as the premier North American professional drifting championship series. The series consists of an eight-round championship played out at race tracks across North America. Judged on line, angle, and style, rather than who finishes the course in the fastest time, Formula Drift brings together traditional racing and extreme sports.
+
+Formula Drift works closely with a huge variety of sponsors such as: Black Magic Car Care, BlackVue Dash Cameras, NOS Energy Drink, and the United States Air Force. Most notably Formula Drift works with the largest amount of tire suppliers to a single series. Federal Tire, Falken Tire, Nexen Tire, GT radial and Nitto Tire all work together to supply teams and develop test their products.</p>
+        </div>
+        <div id="gallery" style="display: none">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <img src="https://news.formulad.com/wordpress/wp-content/uploads/2021/05/LC1_7287-scaled.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="" />
+            
+              <img src="https://news.formulad.com/wordpress/wp-content/uploads/2021/05/LC2_7342-scaled.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+              />
+            </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="https://news.formulad.com/wordpress/wp-content/uploads/2021/05/LC1_8228-scaled.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+            <img
+              src="https://news.formulad.com/wordpress/wp-content/uploads/2021/05/LC1_8409-scaled.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="https://news.formulad.com/wordpress/wp-content/uploads/2021/05/LC2_6124-scaled.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+            <img
+              src="https://news.formulad.com/wordpress/wp-content/uploads/2021/05/LC2_7292-scaled.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+          </div>
+          <strong>Source = <a href="https://news.formulad.com/2021-gallery/rd1-pro-friday-all-access/" target="_blank">Formula Drift Gallery</a></strong>
+        </div>
+      </div>
+      <div id="video" style="display: none">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.formulad.com/schedule"></iframe>
+        </div>
+      </div>
+      <h5 class="text-center">Thats All Fun!</h5>
+      
+    </div>
+  </body>
+  <footer class="bg-light text-center text-lg-start fixed-bottom">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: white;">
+     
+      <a href="#"> © 2021 Copyright: Antony Itran</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</html>
+  

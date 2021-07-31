@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <tittle>Climate Quiz</tittle>
+    <link href="style.css" rel="stylesheet" tyle="text/css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1><center>Climate Change Quiz</center></h1>
+    Please input your name :<input type="text" id="name" name="nama" >
+    <h3>Please Answer This Question Below:</h3>
+    <form name="Quiz">
+      <p>
+      <ol>
+        <li><strong>What is Climate Change:</strong><br> 
+        <input type="text" id="answerText" name="whatis" required=""></li><br>
+        <li>How many country that sign Paris Agrement? <br>
+        <input type="number" id="numb" name="country" min="0" max="20000" step="50"><br><br>
+        <li>What Main Cause The Climate Control<br>
+            <input type="radio" name="jawaban" value="jawaban1">People are smoking<br>
+            <input type="radio" name="jawaban" value="jawaban2">Deforestation
+        </li>
+      </ol>
+      <center><button class="btn btn-primary text-center" onclick="checkAnswer()">Finish!</button></center>
+      </p>
+    </form>
+    Go back to <a href="https://trinket.io/html/d5f18f3a89?runMode=autorun" class="btn btn-danger">Home</a>
+  </body>
+</html>

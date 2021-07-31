@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Change</title>
+  <link href="style.css" rel="stylesheet" tyle="text/css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .blink_me {
+        animation: blinker 1s linear infinite;
+      }
+      
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+</head>
+
+<body id="body">
+<div class="blink_me text-uppercase text-center"><strong>View <a href="mypassion.html">My Work</a></strong></div>
+<h1 id="heading"  style="color:#3120d9"><a onclick='change_heading()'>Climate Change</a></h1>
+<input id="name" type="text" placeholder="Type your name" onkeyup="say_hello()">
+  <div id="Welcome">
+    
+  </div>
+  <input type="checkbox" oninput="change_background()">Check me
+
+<p style="font-family: verdana">
+<img src="bumi.jpg" width="200" height="200"><br>
+Climate change refers to significant, long-term changes in the global climate.
+
+The global climate is the connected system of sun, earth and oceans, wind, rain and snow, forests, deserts and savannas, and everything people do, too. The climate of a place, say New York, can be described as its rainfall, changing temperatures during the year and so on.
+
+But the global climate is more than the “average” of the climates of specific places.
+<button onclick="show_hide()">More Info</button>
+<div id="appear" style="display: none">
+  <p>
+  A description of the global climate includes how, for example, the rising temperature of the Pacific feeds typhoons which blow harder, drop more rain and cause more damage, but also shifts global ocean currents that melt Antarctica ice which slowly makes sea level rise until New York will be under water.
+
+It is this systemic connectedness that makes global climate change so important and so complicated.
+</p></div>
+
+
+<h2 style="color:#3120d9">How does Global Warming drive Climate Change?</h2>
+<p>
+  Heat is energy and when you add energy to any system changes occur.
+
+Because all systems in the global climate system are connected, adding heat energy causes the global climate as a whole to change.
+
+Much of the world is covered with ocean which heats up. When the ocean heats up, more water evaporates into clouds.
+
+Where storms like hurricanes and typhoons are forming, the result is more energy-intensive storms. A warmer atmosphere makes glaciers and mountain snow packs, the Polar ice cap, and the great ice shield jutting off of Antarctica melt raising sea levels.
+</p>
+<p><strong>Greta Thunberg</strong> Quotes
+<blockquote>
+  “Many of you appear concerned that we are wasting valuable lesson time, but I assure you we will go back to school the moment you start listening to science and give us a future.”
+  <a href="https://www.futurelearn.com/courses/introduction-to-web-development/6/steps/1023744">Source</a>
+</blockquote>
+
+Take the <a href="quiz.html">Quiz</a><br>
+<h2>Relatied Link</h2>
+<ul>
+  <li>
+    <a href="https://indiaenvironment.org/" target="_blank">Environmentalist Foundation of India</a>
+  </li>
+  <li>
+    <a href="https://www.menlhk.go.id/" target="_blank">Indonesia Ministry of Environment and Forestry</a>
+  </li>
+  <li>
+    <a href="http://ditjenppi.menlhk.go.id/kcpi/index.php/tentang/tentang-knowledge-centre" taget="_blank">Knowledge Centre Perubahan Iklim
+Indonesia Climate Innovation in Action</a>
+  </li>
+  <li>
+    <a href="https://www.lestari-indonesia.org/id/perubahan-iklim/" target="_blank">Lestari Indonesia</a>
+  </li>
+</ul>
+<div id="gMap" style="width: 50%; height:200px"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-yXqH-6ANE0pFcVX_p9A34F0szk3kPrI&callback=myMap"></script>
+</body>
+</html>
